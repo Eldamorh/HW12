@@ -11,8 +11,12 @@ public class Row {
         cells[2] = thirdCell;
     }
 
-    public String getCell(int i) {
-        return cells[i];
+//    public String getCell(int i) {
+//        return cells[i];
+//    }
+
+    public String[] getCells() {
+        return cells;
     }
 
 }

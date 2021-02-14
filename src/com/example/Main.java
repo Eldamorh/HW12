@@ -1,6 +1,7 @@
 package com.example;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class Main {
@@ -20,7 +21,7 @@ public class Main {
         report.setRows(rows);
 
         for(Row row: report.getRows()){
-            System.out.println(row.getCell(0) + " " + row.getCell(1) + " " + row.getCell(2));
+            System.out.println(Arrays.toString(row.getCells()));
         }
     }
 }
